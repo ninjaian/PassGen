@@ -1,0 +1,118 @@
+/* html {
+        font-family: 'Open Sans' sans-serif;
+} */
+body {
+    display: block;
+    justify-content: center;
+}
+#mainHead {
+    text-align: center;
+    display: block;
+    font-weight: 700;
+    font-size: 30px;
+}
+#altHead {
+    text-align: center;
+    display: block;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+#genContent {
+    display: flex;
+    justify-content: center;
+}
+#box {
+    border: 2px solid black;
+    width: 1300px;
+    height: 800px;
+}
+#specs {
+    text-align: center;
+    width: 1300px;
+    height: 200px;
+    display: block;
+}
+#pLength {
+    text-transform: capitalize;
+}
+#custPass {
+    font-size: 35px;
+}
+#passGenBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    border-top: 1px solid black;
+    width: 1300px;
+    height: 500px;
+}
+.checkboxes {
+    margin: 10px 10px;
+    padding: 10px 10px;
+    font-size: 25px;
+}
+#currentPassLength {
+    font-size: 25px;
+}
+#slider {
+    overflow: hidden;
+    width: 30%;
+    cursor: grab;
+}
+/* #uppercase {
+    height: 25px;
+    width: 25px;
+}
+#lowercase {
+    height: 25px;
+    width: 25px;
+}
+#number {
+    height: 25px;
+    width: 25px;
+}
+#symbol {
+    height: 25px;
+    width: 25px;
+} */
+#passGen {
+    height: 400px;
+}
+#generatedPassForm {
+    padding: 50px 50px;
+}
+#generatedPass {
+    padding: 50px 50px;
+    font-size: 35px;
+    max-width: 800;
+    border: 2px solid #8d0cf7;
+}
+button {
+    height: 100px;
+    width: 300px;
+    font-size: 25px;
+}
+input[type="checkbox"] {
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+}
+/* input[type=range] {
+    -webkit-appearance: none;
+    background-color: rgba(158, 158, 158, 0.349);
+    width: 200px;
+    height: 15px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    cursor: grab;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.5;
+    width: 15px;
+    height: 15px;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 100%;
+} */

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="app.css" />
+    <title>PassGen</title>
+  </head>
+  <body>
+    <div id="mainHead">
+      <h1>PassGen</h1>
+    </div>
+    <div id="altHead">
+      <h3>generate unique and secure passwords with the click of a button</h3>
+    </div>
+    <section id="genContent">
+      <div id="box">
+        <div id="specs">
+          <section id="pLength">
+            <div class="slider">
+              <h2 id="custPass">Customize Your Password</h2>
+              <form action="">
+                <label for="slider" id="currentPassLength"></label>
+                <input type="range" id="slider" min="1" max="50" value="12" />
+                <!-- <h3 id="currentPassLength"></h3> -->
+              </form>
+            </div>
+            <div class="checkboxes">
+              <form action="">
+                <input
+                  type="checkbox"
+                  id="uppercase"
+                  value="uppercase"
+                  checked
+                />
+                <label for="uppercase">uppercase</label>
+                <input
+                  type="checkbox"
+                  id="lowercase"
+                  value="lowercase"
+                  checked
+                />
+                <label for="lowercase">lowercase</label>
+                <input type="checkbox" id="number" value="number" checked />
+                <label for="number">numbers</label>
+                <input type="checkbox" id="symbol" value="symbol" checked />
+                <label for="symbol">symbols</label>
+              </form>
+            </div>
+          </section>
+          <div id="passGenBox">
+            <div id="passGen">
+              <form action="" id="generatedPassForm">
+                <input
+                  type="text"
+                  id="generatedPass"
+                  spellcheck="false"
+                  value=""
+                />
+              </form>
+              <button id="btnGen" onclick="passGen()">Generate Password</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div id="passwordLength">
+          <label for="passLength">specify password length</label>
+          <input type="text" id="passLength" />
+          <button>submit</button>
+        </div> -->
+      </div>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>

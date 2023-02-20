@@ -1,15 +1,17 @@
-/* html {
-        font-family: 'Open Sans' sans-serif;
-} */
+
 body {
     display: block;
     justify-content: center;
+    font-family: 'Brush Script MT', cursive;
+    background-color: #c8ccd31a;
 }
 #mainHead {
     text-align: center;
     display: block;
     font-weight: 700;
     font-size: 30px;
+    color: black;
+    font-family: 'Trebuchet MS', sans-serif;
 }
 #altHead {
     text-align: center;
@@ -23,9 +25,11 @@ body {
     justify-content: center;
 }
 #box {
-    border: 2px solid black;
+    border: 2px solid #8d0cf7;
     width: 1300px;
     height: 800px;
+    background-color: #a5c4ff1f;
+    border-radius: 10px;
 }
 #specs {
     text-align: center;
@@ -44,9 +48,10 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 50px;
-    border-top: 1px solid black;
+    border-top: 1px solid #8d0cf7;
     width: 1300px;
     height: 500px;
+    background-color: none;
 }
 .checkboxes {
     margin: 10px 10px;
@@ -89,12 +94,21 @@ body {
     width: 1050px;
     border: 2px solid #8d0cf7;
     text-align: center;
+    border-radius: 5px;
 }
-button {
+#btnGen {
     height: 100px;
     width: 300px;
     font-size: 25px;
+    background-color: #c37aff;
+    font-weight: 700;
+    border-radius: 10px;
 }
+#btnGen:hover {
+    background-color : #8d0cf7;
+    cursor: pointer;
+}
+
 input[type="checkbox"] {
     cursor: pointer;
     height: 25px;
@@ -117,3 +131,8 @@ input[type="range"]::-webkit-slider-thumb {
     border: 2px solid rgb(255, 0, 0);
     border-radius: 100%;
 } */
+#footer {
+    transform: translate(0px, -15px);
+    text-transform: capitalize;
+    color: #8d0cf7;
+}

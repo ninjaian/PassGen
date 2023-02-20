@@ -52,8 +52,6 @@ const passGen = () => {
             }
 
             let randSelect = Math.floor(Math.random() * (checked))
-            console.log(checked)
-            console.log(newCharFull)
             newPass += newCharFull[randSelect]
 
 
